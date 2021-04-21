@@ -1,7 +1,6 @@
-MODEL ARCHITECTURE = semantic segmentation using U-Net (background removal)
-
 		            Cartooning using GANs and VGG19
 
+MODEL ARCHITECTURE = semantic segmentation using U-Net (background removal)
 
 	Dataset Creating   (Model was trained using Kaggle)
 		
