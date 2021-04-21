@@ -1,4 +1,6 @@
 		            Cartooning using GANs and VGG19
+			    
+Note :  This model is also deployed as webapp on link: 34.105.42.61:8501		 
 
 MODEL ARCHITECTURE = semantic segmentation using U-Net (background removal)
 
@@ -11,7 +13,7 @@ For cartooning, 10000 photos of real-world faces from the FFHQ dataset and aroun
 For cartoon photos, 8000 stills were used from 2 anime shows in regular intervals and created the cartoon-scenery dataset with that. and extracted 10000 cartoon-faces randomly from a Kaggle anime faces dataset containing around 200k images.
 
 
-	Training   (Model was trained using Kaggle)
+	Training   (Model was trained using Kaggle) Link: https://www.kaggle.com/tanishmittal/unetsegmentationtraining?scriptVersionId=58400153
 
 ->For background removal, the UNET architecture was used and training was done by using COCO dataset Human images.
 ->For cartooning, https://systemerrorwang.github.io/White-box-Cartoonization/paper/06791.pdf was referred
